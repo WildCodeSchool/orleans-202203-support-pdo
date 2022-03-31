@@ -1,0 +1,9 @@
+- Se connecter à mySQL via le terminal et créer une database nommée shoppingSupport :
+    - mysql -u <votreUsername> -p
+        - Rentrer votre mot de passe
+    - CREATE DATABASE shoppingSupport;
+- Sélectionner la database shoppingSupport pour l'utiliser :
+    - USE shoppingSupport;
+- Créer une table articles :
+    - CREATE TABLE articles (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, name VARCHAR(100) NOT NULL);
+- Faire une copie du fichier config et renseigner vos identifiants

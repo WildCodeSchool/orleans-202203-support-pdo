@@ -1,0 +1,4 @@
+<?php
+define('DSN', 'mysql:host=localhost;dbname=shoppingSupport');
+define('USER', 'yourUserName');
+define('PASSWORD', 'yourPassword');
